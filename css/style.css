@@ -100,17 +100,19 @@ header nav ul li:last-of-type a {
 .help_sect_h3{
     font: 40px/42px 'poppinsregular';
     color: #FFFFFF;
+    padding-bottom: 15px;
 }
 .help_sect_p{
     font: 24px/30px 'poppinsregular';
     color: #C0C0C0;
+    padding-bottom: 22px;
 }
 .help_sect_a{
     font: 16px/20px 'poppinsregular';
     color: black;
     border-radius: 14px;
     background-color: #FFFFFF;
-    padding: 11px 6px 11px 6px;
+    padding: 5px 0 5px 4px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
