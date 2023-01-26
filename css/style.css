@@ -10,9 +10,6 @@
     font-style: normal;
 
 }
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -68,8 +65,8 @@ header nav ul li:last-of-type a {
     height: calc(100vh - 86px);
 }
 .top_section_apert_stud{
+    max-width: 580px;
     padding: 466px 430px 51px;
-    width: 580px;
     text-align: center;
 }
 .top_section_phot_film{
@@ -93,9 +90,7 @@ header nav ul li:last-of-type a {
     background-color: #000000;
 }
 .help_sect_size{
-    padding: 113px 435px 108px;
     text-align: center;
-    width: 571px;
 }
 .help_sect_h3{
     font: 40px/42px 'poppinsregular';
@@ -112,11 +107,10 @@ header nav ul li:last-of-type a {
     color: black;
     border-radius: 14px;
     background-color: #FFFFFF;
-    padding: 5px 0 5px 4px;
+    padding: 5px 10px 5px 4px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    width: 154px;
 }
 .help_sect_a::before{
     content:"";
@@ -126,4 +120,15 @@ header nav ul li:last-of-type a {
     border-radius: 15px;
     margin-right: 6px;
     background-color: black;
+}
+.what_we_d_article{
+    width: 576px;
+    height: 600px;
+    background-image: url("../images/devices.jpg");
+    margin-left: 136px;
+    margin-top: 242px;
+    text-align: start;
+}
+.what_we_d_art_text{
+
 }
