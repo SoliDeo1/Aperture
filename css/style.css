@@ -91,6 +91,7 @@ header nav ul li:last-of-type a {
 }
 .help_sect_size{
     text-align: center;
+    padding-bottom: 108px;
 }
 .help_sect_h3{
     font: 40px/42px 'poppinsregular';
