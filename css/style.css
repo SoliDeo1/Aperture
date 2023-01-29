@@ -59,11 +59,6 @@ header nav ul li:last-of-type a {
     font-size: 16px;
     letter-spacing: 0.4px;
 }
-.main_banner{
-    background-image: url("../images/IMAGE.jpg");
-    background-size: cover;
-    height: calc(100vh - 86px);
-}
 .top_section_apert_stud{
     max-width: 580px;
     padding: 466px 70px;
@@ -72,14 +67,14 @@ header nav ul li:last-of-type a {
 .top_section_phot_film{
     font: 14px/20px 'poppinsregular';
     color: #C0C0C0;
-;
 }
 .font_14-20{
     font: 14px/20px 'poppinsregular';
+
 }
 .top_sect_discr_p{
     padding-top: 18px;
-    color: #FFFFFF;
+    color: #C0C0C0;
 }
 .top_sect_h1{
     font: 54px/59px 'poppinsregular';
@@ -97,6 +92,7 @@ header nav ul li:last-of-type a {
     font: 40px/42px 'poppinsregular';
     color: #FFFFFF;
     padding-bottom: 15px;
+    padding-top: 113px;
 }
 .help_sect_p{
     font: 24px/30px 'poppinsregular';
@@ -130,6 +126,240 @@ header nav ul li:last-of-type a {
     margin-top: 242px;
     text-align: start;
 }
-.what_we_d_art_text{
+.mount_sect{
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mount_sect_text_block{
+    max-width: 298px;
+    position: absolute;
+    padding-right: 62px;
+}
+.main_banner{
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    height: calc(100vh - 86px);
+    position: relative;
+}
+.main_banner .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main_banner .bottom_icon li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.main_banner .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.main_banner .bottom_icon li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+.main_banner .bottom_icon li:nth-child(3):before{
+    background-image: url("../images/iso_logo.svg");
+    width: 32px;
+}
+.main_banner .bottom_icon li:nth-child(4):before{
+    background-image: url("../images/location_logo.svg");
+    width: 10px;
+    height: 16px;
+}
+.mount_sect .bottom_icon li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.mount_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.mount_sect .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.mount_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.mount_sect .bottom_icon li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+.mount_sect .bottom_icon li:nth-child(3):before{
+    background-image: url("../images/iso_logo.svg");
+    width: 32px;
+}
+.mount_sect .bottom_icon li:nth-child(4):before{
+    background-image: url("../images/location_logo.svg");
+    width: 10px;
+    height: 16px;
+}
+.text_decor_h3{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.text_decor_p{
+    color: #C0C0C0;
+}
+.leafs_sect{
+    background-image: url("../images/leaf.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.leafs_sect .bottom_icon li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.leafs_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.leafs_sect .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.leafs_sect_text_block{
+    max-width: 273px;
+    position: absolute;
+    padding-right: 87px;
 
+}
+.leafs_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.leafs_sect .bottom_icon li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+.leafs_sect .bottom_icon li:nth-child(3):before{
+    background-image: url("../images/iso_logo.svg");
+    width: 32px;
+}
+.leafs_sect .bottom_icon li:nth-child(4):before{
+    background-image: url("../images/location_logo.svg");
+    width: 10px;
+    height: 16px;
+}
+
+.night_sky_sect{
+    background-image: url("../images/sky.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.night_sky_sect .bottom_icon li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.night_sky_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.night_sky_sect .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.night_sky_sect_text_block {
+    max-width: 241px;
+    position: absolute;
+    padding-right: 119px;
+
+}
+.night_sky_sect .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.night_sky_sect .bottom_icon li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+.night_sky_sect .bottom_icon li:nth-child(3):before{
+    background-image: url("../images/iso_logo.svg");
+    width: 32px;
+}
+.night_sky_sect .bottom_icon li:nth-child(4):before{
+    background-image: url("../images/location_logo.svg");
+    width: 10px;
+    height: 16px;
 }
