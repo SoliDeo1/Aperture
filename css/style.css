@@ -376,24 +376,9 @@ header nav ul li:last-of-type a {
     position: relative;
     max-width: 576px;
     height: 600px;
+    margin-bottom: 15px;
 }
 .img_art{
-    background-image: url("../images/devices.jpg");
-    display: block;
-    width: 100%;
-}
-.img_art_2{
-    background-image: url("../images/lines.jpg");
-    display: block;
-    width: 100%;
-}
-.img_art_3{
-    background-image: url("../images/trees.jpg");
-    display: block;
-    width: 100%;
-}
-.img_art_4{
-    background-image: url("../images/dear.jpg");
     display: block;
     width: 100%;
 }
