@@ -363,3 +363,68 @@ header nav ul li:last-of-type a {
     width: 10px;
     height: 16px;
 }
+.what_we_do_sect{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+.what_we_do_cont{
+    max-width: 1168px;
+    margin: auto;
+}
+.what_we_do_art{
+    position: relative;
+    max-width: 576px;
+    height: 600px;
+}
+.img_art{
+    background-image: url("../images/devices.jpg");
+    display: block;
+    width: 100%;
+}
+.img_art_2{
+    background-image: url("../images/lines.jpg");
+    display: block;
+    width: 100%;
+}
+.img_art_3{
+    background-image: url("../images/trees.jpg");
+    display: block;
+    width: 100%;
+}
+.img_art_4{
+    background-image: url("../images/dear.jpg");
+    display: block;
+    width: 100%;
+}
+.what_we_do_inside_div{
+    position: absolute;
+    width: 100%;
+    left: 30px;
+    bottom: 30px;
+}
+.what_we_do_centr_cont{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 42px;
+}
+.what_we_d_h3{
+    font: 40px/42px 'poppinsregular';
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.what_we_d_p{
+    font: 23px/30px 'poppinsregular';
+    color: #C0C0C0;
+    text-align: center;
+}
+.h3_styles{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.p_styles{
+    color: #C0C0C0;
+    padding-bottom: 17px;
+}
