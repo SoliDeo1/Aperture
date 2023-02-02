@@ -384,7 +384,6 @@ header nav ul li:last-of-type a {
 }
 .what_we_do_inside_div{
     position: absolute;
-    width: 100%;
     left: 30px;
     bottom: 30px;
 }
@@ -412,4 +411,16 @@ header nav ul li:last-of-type a {
 .p_styles{
     color: #C0C0C0;
     padding-bottom: 17px;
+}
+.pad_45{
+    padding-right: 45px;
+}
+.pad_32{
+    padding-right: 32px;
+}
+.pad_30{
+    padding-right: 30px;
+}
+.pad_66{
+    padding-right: 66px;
 }
