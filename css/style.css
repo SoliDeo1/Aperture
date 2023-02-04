@@ -423,3 +423,191 @@ header nav ul li:last-of-type a {
 .pad_66{
     padding-right: 66px;
 }
+.tools{
+    position: relative;
+    background-color: black;
+}
+.tools .img_bg{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    background-image: url("../images/img_bg.jpg");
+    background-size: cover;
+    right: 0;
+    top: 0;
+}
+.tools .container{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 540px;
+}
+.tools .information{
+    max-width: 514px;
+    color: #FFFFFF;
+}
+footer{
+    padding: 100px 0;
+    background-color: black;
+    color: #FFFFFF;
+}
+footer .container{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #FFFFFF;
+    padding-bottom: 26px;
+}
+footer .right_sub-menu{
+    display: flex;
+    align-items: flex-start;
+}
+footer .right_sub-menu ul{
+    list-style: none;
+}
+footer .right_sub-menu ul:first-of-type{
+    margin-right: 55px;
+}
+footer .right_sub-menu ul:last-of-type{
+    margin-right: 100px;
+}
+footer .right_sub-menu ul li{
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+footer form{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    max-width: 458px;
+    height: 52px;
+    padding: 11px 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer button{
+    background-color: black;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    width: 63px;
+    cursor: pointer;
+}
+.tools .container h4{
+    color: #C0C0C0;
+    padding-bottom: 6px;
+}
+.tools .container h3{
+    font: 28px/32px 'poppinsregular';
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.tools .container p{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.tools  .bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.tools .bottom_icon li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.tools .bottom_icon li::before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+.tools .bottom_icon li:nth-child(2):before{
+    background-image: url("../images/circle.svg");
+}
+.tools .bottom_icon li:nth-child(3):before{
+    background-image: url("../images/iso_logo.svg");
+    width: 32px;
+}
+.tools .bottom_icon li:nth-child(4):before{
+    background-image: url("../images/location_logo.svg");
+    width: 10px;
+    height: 16px;
+}
+footer .container p{
+    font: 13px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+footer .container ul li{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+footer .container a{
+    font: 13px/20px 'poppinsregular';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .container{
+    padding-top: 40px;
+}
+footer .container h4{
+    font: 14px/20px 'poppinsregular';
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+footer .container p{
+    font: 13px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+footer .bot_p{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+footer .container .bott_ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer .container .bott_ul li{
+    padding-right: 20px;
+}
+.clients .container{
+    margin: auto;
+    text-align: center;
+    padding-top: 113px;
+}
+.clients{
+    background-color: black;
+}
+.clients .clients_li ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 140px;
+    align-items: center;
+}
+.clients_li{
+    max-width: 1076px;
+    margin: auto;
+}
+.clients .container h4{
+    font: 40px/42px 'poppinsregular';
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.clients .container p{
+    font: 24px/30px 'poppinsregular';
+    color: #C0C0C0;
+    padding-bottom: 82px;
+}
